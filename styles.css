@@ -4,14 +4,33 @@
     box-sizing: border-box;
 }
 .container{
-    margin: 79px 123px;
+    margin:33px 123px;
     max-width: 100px;
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     column-gap: 15px;
-    row-gap: 15px;
+    row-gap: 40px;
+}
+.grid-item{
+    position: relative;
 }
 
-img{
+.grid-item img{
     max-width: 250px;
+    height: auto;
+}
+
+button{
+    position: absolute;
+    bottom:67px;
+    left: 48px;
+    border: 1px black solid;
+    width: 152px;
+    height: 39px;
+    cursor: pointer;
+    border-radius: 20px;
+}
+
+.caption{
+    margin-top: 18px;
 }
