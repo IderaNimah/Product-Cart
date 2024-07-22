@@ -23,6 +23,11 @@ body{
 .title{
   margin: 34px 125px;
 }
+
+.sub-main{
+  display: flex;
+  justify-content: space-between;
+}
 .container {
   margin: 33px 123px;
   max-width: 100px;
@@ -75,4 +80,9 @@ span img{
 }
 .caption h3{
   color: var(--Red);
+}
+
+.your-cart{
+  margin: -50px 199px;
+  
 }
